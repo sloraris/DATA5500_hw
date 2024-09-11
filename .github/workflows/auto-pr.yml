@@ -3,7 +3,10 @@ name: Auto Pull Request for Homework
 on:
   push:
     branches:
-      - add/hw*
+      - add/*
+      - adjust/*
+      - remove/*
+      - practice/*
 
 jobs:
   create-pull-request:
@@ -18,5 +21,4 @@ jobs:
           branch: main
           title: '${GITHUB_REF##*/} PR (automated)'
           body: 'This pull request is for changes in `${GITHUB_REF##*/}`'
-          labels: 'homework'
           draft: false
