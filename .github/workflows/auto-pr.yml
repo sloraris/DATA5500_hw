@@ -3,7 +3,7 @@ name: Auto Pull Request for Homework
 on:
   push:
     branches:
-      - add/homework-*
+      - add/*
 
 jobs:
   create-pull-request:
