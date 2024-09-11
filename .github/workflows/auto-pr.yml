@@ -19,6 +19,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           branch: main
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           title: '${GITHUB_REF##*/} PR (automated)'
           body: 'This pull request is for changes in `${GITHUB_REF##*/}`'
           draft: false
