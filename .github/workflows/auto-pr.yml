@@ -1,0 +1,22 @@
+name: Auto Pull Request for Homework
+
+on:
+  push:
+    branches:
+      - add/homework-*
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          branch: main
+          title: 'Homework ${GITHUB_REF##*/} PR'
+          body: 'This pull request is for changes in `${GITHUB_REF##*/}`'
+          labels: 'homework'
+          draft: false
