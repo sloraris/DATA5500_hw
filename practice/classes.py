@@ -25,3 +25,5 @@ class Student:
 bob = Student('Bob', 'Zimmerman', 83)
 
 print(bob.are_you_older_than_100())
+
+# practicing classes

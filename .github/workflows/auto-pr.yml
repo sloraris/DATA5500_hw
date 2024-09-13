@@ -21,6 +21,5 @@ jobs:
           base: main
           title: '${GITHUB_REF##*/} PR (automated)'
           body: 'This pull request is for changes in `${GITHUB_REF##*/}`'
-          labels: 'homework'
           draft: false
           delete-branch: true
