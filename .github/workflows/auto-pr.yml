@@ -3,10 +3,10 @@ name: Auto Pull Request for Homework
 on:
   push:
     branches:
-      - add/*
-      - adjust/*
-      - remove/*
-      - practice/*
+      - add/**
+      - adjust/**
+      - remove/**
+      - practice/**
 
 jobs:
   create-pull-request:
@@ -18,8 +18,8 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          branch: main
-          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          base: main
           title: '${GITHUB_REF##*/} PR (automated)'
           body: 'This pull request is for changes in `${GITHUB_REF##*/}`'
           draft: false
+          delete-branch: true
