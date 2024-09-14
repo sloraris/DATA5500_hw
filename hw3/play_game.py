@@ -21,18 +21,18 @@ def score_keeper(score, card):
 # logic for determining if the user beat the dealer
 def did_you_beat_the_dealer(score, dealer_score):
     if score > dealer_score:
-        print(f"{GREEN}The dealer's score is:{RESET}", dealer_score)
+        print(f"{RED}The dealer's final score is:{RESET}", dealer_score)
         print(f"{MAGENTA}{snark.win_dealer_under()}{RESET}")
     elif dealer_score > 21:
-        print(f"{GREEN}The dealer's score is:{RESET}", dealer_score)
+        print(f"{RED}The dealer's final score is:{RESET}", dealer_score)
         print(f"{MAGENTA}{snark.win_dealer_bust()}{RESET}")
     elif score < dealer_score and dealer_score <= 21:
-        print(f"{RED}The dealer's score is:{RESET}", dealer_score)
+        print(f"{GREEN}The dealer's final score is:{RESET}", dealer_score)
         print(f"{MAGENTA}{snark.lose_dealer()}{RESET}")
     elif score == dealer_score:
-        print(f"{YELLOW}well that's awkward, you and the dealer both got:{RESET}", score)
+        print(f"{YELLOW}Well that's awkward, you and the dealer both got:{RESET}", score)
     else:
-        print(f"{RED}not sure how you got here, but we'll say you lost{RESET}")
+        print(f"{RED}Really not sure how you got here, but we'll say you lost{RESET}")
 
 
 # logic for determining if the game is over
@@ -55,11 +55,20 @@ def game_status_checker(score, hit_number):
 def deal_the_house(deck):
     # dealer card dealing loop
     dealer_score = 0
+    dcard1 = deck.get_card()
+    print(f"Dealer card 1: {CYAN}{dcard1}{RESET}")
+    dealer_score = score_keeper(dealer_score, dcard1)
+    dcard2 = deck.get_card()
+    print(f"Dealer card 2: {CYAN}{dcard2}{RESET}")
+    dealer_score = score_keeper(dealer_score, dcard2)
+    print(f"{GREEN}Dealer's starting score is:{RESET}", dealer_score)
+
     while True:
         # check if the dealer's score is less than 17
         if dealer_score < 17:
-            card4 = deck.get_card()
-            dealer_score = score_keeper(dealer_score, card4)
+            card3 = deck.get_card()
+            print(f"Hit: {CYAN}{card3}{RESET}")
+            dealer_score = score_keeper(dealer_score, card3)
         else:
             break
     return dealer_score
@@ -68,13 +77,13 @@ def deal_the_house(deck):
 # logic for asking the user if they would like to play again
 def play_again():
     while True:
-        again = input("\n\nwould you like to play again? (y/n): ")
+        again = input("\n\nWould you like to play again? (y/n): ")
         if again == 'y':
             return True
         elif again == 'n':
             return False
         else:
-            print("\ncan you read?")
+            print("\nCan you read?")
 
 
 # initiate snarkiness
@@ -115,16 +124,16 @@ while True:
             break
 
         # ask user if they would like a "hit" (another card)
-        hit = input("\nwould you like a hit? (y/n): ")
+        hit = input("\nWould you like a hit? (y/n): ")
 
         if hit == 'y':
             card3 = deck.get_card()
             score = score_keeper(score, card3)
             print(f"{CYAN}{card3}{RESET}")
-            print(f"{CYAN}new score:{RESET}", score)
+            print(f"{CYAN}New score:{RESET}", score)
         elif hit == 'n':
             print(f"{MAGENTA}{snark.stand()}{RESET}")
-            print(f"{CYAN}your final score is:{RESET}", score)
+            print(f"{CYAN}Your final score is:{RESET}", score)
 
             # check if the game is over
             game_over, player_won = game_status_checker(score, hit_number)
@@ -132,13 +141,13 @@ while True:
                 break
             # if the user didn't lose, deal the house and check if the user beat the dealer
             else:
-                print("\nlet's see if you can beat the dealer...")
+                print("\nLet's see if you can beat the dealer...")
                 dealer_score = deal_the_house(deck)
                 did_you_beat_the_dealer(score, dealer_score)
             # finish the round
             break
         else:
-            print("\ninvalid input")
+            print("\nInvalid input")
 
         hit_number += 1
 
