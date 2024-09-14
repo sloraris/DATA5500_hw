@@ -37,3 +37,7 @@ secrets*
 # Exclude personal directories and test files
 *-media
 *-test*
+
+# Exclude cache files
+*.pyc
+__pycache__
