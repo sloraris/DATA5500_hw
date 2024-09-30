@@ -41,3 +41,6 @@ secrets*
 # Exclude cache files
 *.pyc
 __pycache__
+
+# Manual excludes
+examples
