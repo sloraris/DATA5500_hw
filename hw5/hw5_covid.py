@@ -31,7 +31,7 @@ for state in states:
     facts = {}
     facts["average_new_cases"] = 0
     facts["positive_increases"] = []
-    facts["largest_increase_date"] = 0
+    facts["largest_increase"] = [0, 0]
     facts["recent_no_new_cases"] = 0
     facts["monthly_totals"] = {}
 
@@ -45,8 +45,9 @@ for state in states:
         facts["positive_increases"].append(day["positiveIncrease"])
 
         # Update day of largest increase in cases if necessary
-        if day["date"] > facts["largest_increase_date"]:
-            facts["largest_increase_date"] = day["date"]
+        if day["positiveIncrease"] > facts["largest_increase_date"][1]:
+            facts["largest_increase_date"][0] = day["date"]
+            facts["largest_increase_date"][1] = day["positiveIncrease"]
 
         # Update most recent day with no new increases if necessary
         if day["date"] > facts["recent_no_new_cases"] and day["positiveIncrease"] == 0:
