@@ -45,9 +45,9 @@ for state in states:
         facts["positive_increases"].append(day["positiveIncrease"])
 
         # Update day of largest increase in cases if necessary
-        if day["positiveIncrease"] > facts["largest_increase_date"][1]:
-            facts["largest_increase_date"][0] = day["date"]
-            facts["largest_increase_date"][1] = day["positiveIncrease"]
+        if day["positiveIncrease"] > facts["largest_increase"][1]:
+            facts["largest_increase"][0] = day["date"]
+            facts["largest_increase"][1] = day["positiveIncrease"]
 
         # Update most recent day with no new increases if necessary
         if day["date"] > facts["recent_no_new_cases"] and day["positiveIncrease"] == 0:
@@ -68,7 +68,7 @@ for state in states:
     # Output facts to console
     print(f"\nState: {state}")
     print(f"Average daily increase: {facts['average_new_cases']:.2f}")
-    print(f"Day of highest increase: {facts['largest_increase_date']}")
+    print(f"Day of highest increase: {facts['largest_increase']}")
     print(f"Most recent day with no increase: {facts['recent_no_new_cases']}")
     print(f"Month with highest increase: {highest_month} ({facts['monthly_totals'][highest_month]})")
     print(f"Month with lowest increase: {lowest_month} ({facts['monthly_totals'][lowest_month]})")
