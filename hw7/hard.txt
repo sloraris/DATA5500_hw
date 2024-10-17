@@ -1,0 +1,27 @@
+Alright, hear me out...
+You're looking for Waldo so you can delete him. Waldo is a number, and he's in a tree. A binary search tree, to be exact.
+
+But wait, you say, how do I remove Waldo from the tree?
+Well, first, you need to find him. See medium.py for how to do that.
+Once you find him, you can delete him.
+
+But wait, you say, what if Waldo has children?
+Well, in that case, you need to convince his neighbors to adopt his children first.
+
+So how do you do that?
+It's quite simple, really.
+First, check if Waldo has a left or right child. If he doesn't, you're done!
+If he has one or the other, simply set his value to that child's value and delete the child.
+
+If you're in the unfortunate situation where Waldo has two children, you need to find the smallest child in his right subtree and set Waldo to that value.
+Then, you need to delete that child.
+
+And that's it! You've successfully removed Waldo from the tree.
+
+
+**The following was suggested by the AI assistant "Cursor"**
+...but did you? Did you find the correct Waldo?
+Who even IS Waldo? He could be anyone...
+He could be you, he could be me, he could be the next person in line at the DMV.
+And why was he in a tree in the first place?
+The world may never know.
