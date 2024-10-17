@@ -43,4 +43,4 @@ secrets*
 __pycache__
 
 # Manual excludes
-examples
+examples/*
