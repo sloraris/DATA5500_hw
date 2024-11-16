@@ -1,0 +1,15 @@
+{'bitcoin-cash': {'xrp': 473.302, 'bch': 1.0}, 'ripple': {'xrp': 1.0, 'bch': 0.00211191}}
+{'eos': {'xrp': 0.66428327, 'eos': 1.0}, 'ripple': {'xrp': 1.0, 'eos': 1.505316}}
+{'litecoin': {'xrp': 91.364, 'ltc': 1.0}, 'ripple': {'xrp': 1.0, 'ltc': 0.01094163}}
+{'ethereum': {'xrp': 3433, 'eth': 1.0}, 'ripple': {'xrp': 1.0, 'eth': 0.00029121}}
+{'bitcoin': {'xrp': 99559, 'btc': 1.0}, 'ripple': {'xrp': 1.0, 'btc': 1.004e-05}}
+{'bitcoin-cash': {'bch': 1.0, 'eos': 712.877}, 'eos': {'bch': 0.00140281, 'eos': 1.0}}
+{'bitcoin-cash': {'bch': 1.0, 'ltc': 5.181704}, 'litecoin': {'bch': 0.1930055, 'ltc': 1.0}}
+{'bitcoin-cash': {'bch': 1.0, 'eth': 0.13796123}, 'ethereum': {'bch': 7.248782, 'eth': 1.0}}
+{'bitcoin': {'bch': 210.195, 'btc': 1.0}, 'bitcoin-cash': {'bch': 1.0, 'btc': 0.00475738}}
+{'eos': {'eos': 1.0, 'ltc': 0.00726788}, 'litecoin': {'eos': 137.68, 'ltc': 1.0}}
+{'eos': {'eos': 1.0, 'eth': 0.00019333}, 'ethereum': {'eos': 5172, 'eth': 1.0}}
+{'bitcoin': {'eos': 150000, 'btc': 1.0}, 'eos': {'eos': 1.0, 'btc': 6.67e-06}}
+{'ethereum': {'ltc': 37.567416, 'eth': 1.0}, 'litecoin': {'ltc': 1.0, 'eth': 0.02661876}}
+{'bitcoin': {'ltc': 1089, 'btc': 1.0}, 'litecoin': {'ltc': 1.0, 'btc': 0.00091784}}
+{'bitcoin': {'eth': 28.996703, 'btc': 1.0}, 'ethereum': {'eth': 1.0, 'btc': 0.03448175}}
