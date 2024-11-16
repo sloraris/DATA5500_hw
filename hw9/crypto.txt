@@ -1,0 +1,6 @@
+ripple, xrp
+bitcoin-cash, bch
+eos, eos
+litecoin, ltc
+ethereum, eth
+bitcoin, btc
