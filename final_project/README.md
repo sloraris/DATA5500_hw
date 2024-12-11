@@ -18,3 +18,6 @@ AdGuard Home API documentation can be found on the [AdGuard Home GitHub reposito
 2. Profit
 
 ## Results
+The results are in the `data` directory. There are two files for each server: `stats_data.json` and `logs_data.json`. There are also two HTML files: `stats_report.html` and `logs_report.html`. These are dynamically generated for each server specified in the `secrets.yaml` file.
+
+Due to storage limits on GitHub, I have not included the logs data in the repository. However, the stats data is included in the `data` directory.
