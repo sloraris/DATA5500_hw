@@ -1,0 +1,1167 @@
+{
+    "time_units": "days",
+    "top_queried_domains": [
+        {
+            "api.gelighting.com": 918517
+        },
+        {
+            "cm.gelighting.com": 799471
+        },
+        {
+            "www.msftncsi.com": 603652
+        },
+        {
+            "www.expressapisv2.net": 266113
+        },
+        {
+            "www.msftconnecttest.com": 207561
+        },
+        {
+            "ix-truenas": 190521
+        },
+        {
+            "daemon.nanoleaf.me": 137387
+        },
+        {
+            "health.nanoleaf.me": 137278
+        },
+        {
+            "dns.msftncsi.com": 124829
+        },
+        {
+            "p2p-lax1.discovery.steamserver.net": 64692
+        },
+        {
+            "wgcps-us-nsdb.wargaming.net": 52281
+        },
+        {
+            "www.google.com": 48130
+        },
+        {
+            "catalog.gamepass.com": 47268
+        },
+        {
+            "bag.itunes.apple.com": 35723
+        },
+        {
+            "play.googleapis.com": 28597
+        },
+        {
+            "time.apple.com": 24076
+        },
+        {
+            "v10.events.data.microsoft.com": 23884
+        },
+        {
+            "mask.icloud.com": 22784
+        },
+        {
+            "gateway.icloud.com": 20640
+        },
+        {
+            "mask.apple-dns.net": 19577
+        },
+        {
+            "update.ixsystems.com": 18765
+        },
+        {
+            "gateway.fe2.apple-dns.net": 17001
+        },
+        {
+            "guzzoni.apple.com": 16623
+        },
+        {
+            "ocsp2.apple.com": 16498
+        },
+        {
+            "photosdata-pa.googleapis.com": 16322
+        },
+        {
+            "graph.facebook.com": 15773
+        },
+        {
+            "settings-win.data.microsoft.com": 15575
+        },
+        {
+            "lb._dns-sd._udp.0.6.0.10.in-addr.arpa": 15017
+        },
+        {
+            "outlook.office365.com": 14371
+        },
+        {
+            "play.google.com": 14329
+        },
+        {
+            "guzzoni-apple-com.v.aaplimg.com": 14106
+        },
+        {
+            "ctldl.windowsupdate.com": 13123
+        },
+        {
+            "p2p-ord1.discovery.steamserver.net": 12614
+        },
+        {
+            "ssl.gstatic.com": 12504
+        },
+        {
+            "assets.msn.com": 11616
+        },
+        {
+            "spclient.wg.spotify.com": 11323
+        },
+        {
+            "sps-media.apple.com": 11297
+        },
+        {
+            "www.youtube.com": 11248
+        },
+        {
+            "www.apple.com": 11076
+        },
+        {
+            "discord.com": 9999
+        },
+        {
+            "gdmf.apple.com": 9841
+        },
+        {
+            "e673.dsce9.akamaiedge.net": 9259
+        },
+        {
+            "ocsp2.g.aaplimg.com": 8902
+        },
+        {
+            "www.googleapis.com": 8894
+        },
+        {
+            "p2p-sea1.discovery.steamserver.net": 8785
+        },
+        {
+            "ocsp.digicert.com": 8590
+        },
+        {
+            "i.ytimg.com": 8157
+        },
+        {
+            "_printer._tcp.openthread.thread.home.arpa": 7823
+        },
+        {
+            "_ippusb._tcp.openthread.thread.home.arpa": 7811
+        },
+        {
+            "_uscan._tcp.openthread.thread.home.arpa": 7806
+        },
+        {
+            "_ipp._tcp.openthread.thread.home.arpa": 7803
+        },
+        {
+            "_ipps._tcp.openthread.thread.home.arpa": 7799
+        },
+        {
+            "_uscans._tcp.openthread.thread.home.arpa": 7794
+        },
+        {
+            "_ptp._tcp.openthread.thread.home.arpa": 7791
+        },
+        {
+            "_pdl-datastream._tcp.openthread.thread.home.arpa": 7788
+        },
+        {
+            "_scanner._tcp.openthread.thread.home.arpa": 7779
+        },
+        {
+            "time.nist.gov": 7777
+        },
+        {
+            "v20.events.data.microsoft.com": 7411
+        },
+        {
+            "guc3-spclient.spotify.com": 7231
+        },
+        {
+            "itunes.apple.com": 7214
+        },
+        {
+            "init.ess.apple.com": 6943
+        },
+        {
+            "update.googleapis.com": 6551
+        },
+        {
+            "_meshcop._udp.openthread.thread.home.arpa": 6151
+        },
+        {
+            "mesu.apple.com": 6151
+        },
+        {
+            "prod.client.wosc.services.microsoft.com": 5767
+        },
+        {
+            "gdmf.v.aaplimg.com": 5748
+        },
+        {
+            "ooc-g2.tm-4.office.com": 5729
+        },
+        {
+            "ak8s-prod-pv4-ext-nlb-701b8a3fb1924759.elb.us-west-2.amazonaws.com": 5639
+        },
+        {
+            "gsp-ssl.ls.apple.com": 5628
+        },
+        {
+            "c.pki.goog": 5596
+        },
+        {
+            "xp.apple.com": 5345
+        },
+        {
+            "configuration.ls.apple.com": 5228
+        },
+        {
+            "swallow.apple.com": 5196
+        },
+        {
+            "i.instagram.com": 5178
+        },
+        {
+            "accounts.google.com": 5134
+        },
+        {
+            "a1931320fa83eb8c-0000000091dc2d22._matter._tcp.default.service.arpa": 5042
+        },
+        {
+            "mask-canary.icloud.com": 5013
+        },
+        {
+            "a1931320fa83eb8c-00000000777bc16d._matter._tcp.default.service.arpa": 4954
+        },
+        {
+            "118.6.0.10.in-addr.arpa": 4948
+        },
+        {
+            "x1.c.lencr.org": 4920
+        },
+        {
+            "optimizationguide-pa.googleapis.com": 4897
+        },
+        {
+            "x2.c.lencr.org": 4892
+        },
+        {
+            "waa-pa.clients6.google.com": 4862
+        },
+        {
+            "init-p01md.apple.com": 4806
+        },
+        {
+            "safebrowsing.googleapis.com": 4635
+        },
+        {
+            "gateway.instagram.com": 4621
+        },
+        {
+            "_dns-push-tls._tcp.home.arpa": 4572
+        },
+        {
+            "1-courier.push.apple.com": 4437
+        },
+        {
+            "login.live.com": 4201
+        },
+        {
+            "cat.wargaming.net": 4112
+        },
+        {
+            "www.microsoft.com": 4041
+        },
+        {
+            "pr-5c2f1a37a251ff2a6a8c6eab.data.ea.com": 4036
+        },
+        {
+            "canary.mask.apple-dns.net": 3859
+        },
+        {
+            "mail.comcast.net": 3856
+        },
+        {
+            "sjc-efz.ms-acdc.office.com": 3841
+        },
+        {
+            "api2.cursor.sh": 3826
+        },
+        {
+            "_remotepairing._tcp.openthread.thread.home.arpa": 3826
+        },
+        {
+            "clientservices.googleapis.com": 3763
+        },
+        {
+            "youtubei.googleapis.com": 3707
+        },
+        {
+            "fe3cr.delivery.mp.microsoft.com": 3690
+        }
+    ],
+    "top_clients": [
+        {
+            "10.0.6.10": 1724453
+        },
+        {
+            "10.0.8.2": 1603106
+        },
+        {
+            "10.0.6.145": 893831
+        },
+        {
+            "10.0.6.50": 278491
+        },
+        {
+            "10.0.9.2": 253575
+        },
+        {
+            "10.0.3.20": 220201
+        },
+        {
+            "10.0.6.242": 178542
+        },
+        {
+            "10.0.8.3": 175844
+        },
+        {
+            "10.0.6.22": 160351
+        },
+        {
+            "10.0.6.21": 137960
+        },
+        {
+            "10.0.6.126": 125256
+        },
+        {
+            "10.0.6.118": 121624
+        },
+        {
+            "10.0.6.20": 97429
+        },
+        {
+            "10.0.6.134": 55870
+        },
+        {
+            "10.0.6.200": 50799
+        },
+        {
+            "10.0.6.101": 41478
+        },
+        {
+            "10.0.7.200": 36248
+        },
+        {
+            "10.0.6.209": 31321
+        },
+        {
+            "10.0.6.119": 29575
+        },
+        {
+            "10.0.6.195": 23887
+        },
+        {
+            "10.0.6.139": 23493
+        },
+        {
+            "10.0.6.6": 23376
+        },
+        {
+            "10.0.6.5": 20036
+        },
+        {
+            "10.0.6.187": 18514
+        },
+        {
+            "10.0.4.10": 15188
+        },
+        {
+            "10.0.6.211": 13214
+        },
+        {
+            "10.0.6.128": 7361
+        },
+        {
+            "10.0.6.31": 5498
+        },
+        {
+            "10.0.6.32": 5440
+        },
+        {
+            "10.0.6.173": 3272
+        },
+        {
+            "10.0.7.144": 1651
+        },
+        {
+            "10.0.6.102": 1636
+        },
+        {
+            "10.0.6.174": 1372
+        },
+        {
+            "10.0.6.9": 1249
+        },
+        {
+            "10.0.8.5": 1059
+        },
+        {
+            "10.0.4.171": 935
+        },
+        {
+            "10.0.4.173": 806
+        },
+        {
+            "10.0.6.130": 325
+        },
+        {
+            "10.0.7.174": 237
+        },
+        {
+            "10.0.6.120": 193
+        },
+        {
+            "10.0.7.152": 123
+        },
+        {
+            "10.0.7.183": 73
+        },
+        {
+            "10.0.0.90": 23
+        },
+        {
+            "10.0.7.172": 22
+        },
+        {
+            "10.0.4.224": 18
+        },
+        {
+            "10.0.2.12": 16
+        },
+        {
+            "10.0.3.30": 12
+        },
+        {
+            "10.0.7.156": 7
+        },
+        {
+            "10.0.6.150": 7
+        },
+        {
+            "10.0.4.185": 6
+        },
+        {
+            "10.0.4.160": 5
+        },
+        {
+            "10.0.7.209": 4
+        },
+        {
+            "10.0.7.250": 3
+        },
+        {
+            "10.0.30.2": 3
+        },
+        {
+            "10.0.7.127": 3
+        },
+        {
+            "10.0.7.163": 3
+        },
+        {
+            "10.0.7.165": 3
+        },
+        {
+            "10.0.0.5": 2
+        }
+    ],
+    "top_blocked_domains": [
+        {
+            "teams.events.data.microsoft.com": 108052
+        },
+        {
+            "mobile.events.data.microsoft.com": 98442
+        },
+        {
+            "sdk.iad-05.braze.com": 85636
+        },
+        {
+            "mobile.pipe.aria.microsoft.com": 48647
+        },
+        {
+            "smetrics.t-mobile.com": 44045
+        },
+        {
+            "logs.netflix.com": 28416
+        },
+        {
+            "graph.instagram.com": 12132
+        },
+        {
+            "secure-dcr.vtwenty.com": 11670
+        },
+        {
+            "app-measurement.com": 11315
+        },
+        {
+            "crashlyticsreports-pa.googleapis.com": 11181
+        },
+        {
+            "acr-us-prd.samsungcloud.tv": 10118
+        },
+        {
+            "googleads.g.doubleclick.net": 9826
+        },
+        {
+            "unagi-na.amazon.com": 9235
+        },
+        {
+            "footprints-pa.googleapis.com": 8898
+        },
+        {
+            "firebaselogging-pa.googleapis.com": 8674
+        },
+        {
+            "firebase-settings.crashlytics.com": 7993
+        },
+        {
+            "metrics.icloud.com": 7492
+        },
+        {
+            "sentry.io": 6896
+        },
+        {
+            "ib.isappcloud.com": 6884
+        },
+        {
+            "track.analytics-data.io": 6877
+        },
+        {
+            "so9r2s-inapps.appsflyersdk.com": 6197
+        },
+        {
+            "vortex.data.microsoft.com": 6152
+        },
+        {
+            "mon16-normal-useast5.tiktokv.us": 5610
+        },
+        {
+            "snoop.minecraft.net": 5503
+        },
+        {
+            "so9r2s-launches.appsflyersdk.com": 4917
+        },
+        {
+            "mobile-collector.newrelic.com": 4434
+        },
+        {
+            "app-analytics-services.com": 4427
+        },
+        {
+            "a-pkxwv.data.emb-api.com": 4284
+        },
+        {
+            "fbs.smoot.apple.com": 4236
+        },
+        {
+            "mobile.eum-appdynamics.com": 4209
+        },
+        {
+            "watson.events.data.microsoft.com": 4125
+        },
+        {
+            "log16-normal-useast5.tiktokv.us": 4109
+        },
+        {
+            "fls-na.amazon.com": 3723
+        },
+        {
+            "speeddials.opera.com": 3684
+        },
+        {
+            "graph-fallback.instagram.com": 3520
+        },
+        {
+            "cdn-gl.imrworldwide.com": 3441
+        },
+        {
+            "7ba3f64df98de730df38846b54ecfbdf7f61f80f.cws.conviva.com": 3436
+        },
+        {
+            "af.opera.com": 3288
+        },
+        {
+            "app-analytics-v2.snapchat.com": 3222
+        },
+        {
+            "iphonesubmissions.apple.com": 3082
+        },
+        {
+            "47e224be59415ec068b94bca857581bd7dde7fb6.cws.conviva.com": 2818
+        },
+        {
+            "dpm.demdex.net": 2782
+        },
+        {
+            "inference.location.live.net": 2777
+        },
+        {
+            "ly.my.sentry.io": 2757
+        },
+        {
+            "api-sdk.datadome.co": 2741
+        },
+        {
+            "partiality.itunes.apple.com": 2475
+        },
+        {
+            "log.go.com": 2457
+        },
+        {
+            "api.us-east-1.aiv-delivery.net": 2354
+        },
+        {
+            "pagead2.googlesyndication.com": 2329
+        },
+        {
+            "qcc.qualcomm.com": 2259
+        },
+        {
+            "sdk.iad-03.braze.com": 2257
+        },
+        {
+            "beacons.gcp.gvt2.com": 2249
+        },
+        {
+            "firebaselogging.googleapis.com": 2181
+        },
+        {
+            "beacons.gvt2.com": 2150
+        },
+        {
+            "o-sdk.mediation.unity3d.com": 2056
+        },
+        {
+            "merchandise.opera-api2.com": 2035
+        },
+        {
+            "vision.fn-pz.com": 2024
+        },
+        {
+            "gw.mediation.unity3d.com": 2001
+        },
+        {
+            "kvinit-prod.api.kochava.com": 1975
+        },
+        {
+            "f-log-mac-extension.grammarly.io": 1952
+        },
+        {
+            "functional.events.data.microsoft.com": 1916
+        },
+        {
+            "eec.crunchyroll.com": 1858
+        },
+        {
+            "mac-extension.femetrics.grammarly.io": 1843
+        },
+        {
+            "beacons5.gvt3.com": 1755
+        },
+        {
+            "browser-intake-datadoghq.com": 1737
+        },
+        {
+            "default.exp-tas.com": 1713
+        },
+        {
+            "a-pkxwv.config.emb-api.com": 1639
+        },
+        {
+            "tr6.snapchat.com": 1608
+        },
+        {
+            "log.game.qcplay.com": 1587
+        },
+        {
+            "ad.doubleclick.net": 1537
+        },
+        {
+            "a.et.nytimes.com": 1519
+        },
+        {
+            "api.rudderlabs.com": 1519
+        },
+        {
+            "census-app-x.scorecardresearch.com": 1505
+        },
+        {
+            "cf.iadsdk.apple.com": 1396
+        },
+        {
+            "mobile-http-intake.logs.datadoghq.com": 1358
+        },
+        {
+            "cdn-gl.nmrodam.com": 1352
+        },
+        {
+            "adapt.t-mobile.com": 1312
+        },
+        {
+            "config.samsungads.com": 1285
+        },
+        {
+            "bam.nr-data.net": 1260
+        },
+        {
+            "sdk.split.io": 1204
+        },
+        {
+            "log16-normal-useast8.tiktokv.us": 1195
+        },
+        {
+            "ade.googlesyndication.com": 1137
+        },
+        {
+            "api.distribution.hulu.com": 1134
+        },
+        {
+            "beacons5.gvt2.com": 1119
+        },
+        {
+            "sdk.iad-03.appboy.com": 1091
+        },
+        {
+            "infoevent.startappservice.com": 1085
+        },
+        {
+            "api.apptentive.com": 1080
+        },
+        {
+            "o64374.ingest.sentry.io": 1040
+        },
+        {
+            "hulu.hb.omtrdc.net": 1034
+        },
+        {
+            "beacons3.gvt2.com": 1018
+        },
+        {
+            "beacons4.gvt2.com": 995
+        },
+        {
+            "scar.unityads.unity3d.com": 976
+        },
+        {
+            "ca.iadsdk.apple.com": 971
+        },
+        {
+            "e0vemjple0l1luii7h5vlu5no.litix.io": 968
+        },
+        {
+            "tpc.googlesyndication.com": 948
+        },
+        {
+            "api.qustodio.com": 946
+        },
+        {
+            "log-api.newrelic.com": 915
+        },
+        {
+            "ws.tapjoyads.com": 909
+        },
+        {
+            "beacons2.gvt2.com": 902
+        },
+        {
+            "osb-apps-v2.samsungqbe.com": 885
+        }
+    ],
+    "top_upstreams_responses": [
+        {
+            "10.0.0.1:53": 5607151
+        }
+    ],
+    "top_upstreams_avg_time": [
+        {
+            "10.0.0.1:53": 0.04557464983661043
+        }
+    ],
+    "dns_queries": [
+        117274,
+        102774,
+        85768,
+        65733,
+        66217,
+        59947,
+        65101,
+        71548,
+        65543,
+        66662,
+        60099,
+        65828,
+        50909,
+        71730,
+        65639,
+        58643,
+        67610,
+        88670,
+        60965,
+        69543,
+        62658,
+        52013,
+        57060,
+        59427,
+        54223,
+        59698,
+        57294,
+        41581,
+        57565,
+        62988,
+        62580,
+        76363,
+        72333,
+        75977,
+        54869,
+        19623,
+        19174,
+        19586,
+        67969,
+        55808,
+        48901,
+        50953,
+        45068,
+        45057,
+        65490,
+        60588,
+        94936,
+        93198,
+        82896,
+        87540,
+        90251,
+        86433,
+        89706,
+        25133,
+        37969,
+        92563,
+        87108,
+        83563,
+        106624,
+        81530,
+        94214,
+        98714,
+        86268,
+        90841,
+        90323,
+        88264,
+        80716,
+        78335,
+        88043,
+        84427,
+        88987,
+        102032,
+        56521,
+        81441,
+        75827,
+        64044,
+        65544,
+        67401,
+        61760,
+        66255,
+        72026,
+        74944,
+        89840,
+        78955,
+        75032,
+        72876,
+        93886,
+        89293,
+        82037,
+        7377
+    ],
+    "blocked_filtering": [
+        23040,
+        11060,
+        8196,
+        7643,
+        12114,
+        7974,
+        9110,
+        19708,
+        9810,
+        9575,
+        9606,
+        13726,
+        12338,
+        17334,
+        9651,
+        7743,
+        4145,
+        7676,
+        10923,
+        19699,
+        11116,
+        6478,
+        8934,
+        9489,
+        7457,
+        7916,
+        8160,
+        7486,
+        9896,
+        10117,
+        8549,
+        19564,
+        18091,
+        9548,
+        5360,
+        472,
+        563,
+        836,
+        10632,
+        6658,
+        6148,
+        4155,
+        6510,
+        4589,
+        11427,
+        11257,
+        9614,
+        9006,
+        6896,
+        9509,
+        17184,
+        12194,
+        12546,
+        5524,
+        2898,
+        11414,
+        10234,
+        9595,
+        12256,
+        7181,
+        11419,
+        10362,
+        6757,
+        9022,
+        10830,
+        12043,
+        10794,
+        6084,
+        11180,
+        11029,
+        9649,
+        10312,
+        1259,
+        7882,
+        2684,
+        1113,
+        2733,
+        3710,
+        1031,
+        1891,
+        4349,
+        6928,
+        9599,
+        5433,
+        5934,
+        5735,
+        9147,
+        5748,
+        8679,
+        114
+    ],
+    "replaced_safebrowsing": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "replaced_parental": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "num_dns_queries": 6385029,
+    "num_blocked_filtering": 793762,
+    "num_replaced_safebrowsing": 0,
+    "num_replaced_safesearch": 0,
+    "num_replaced_parental": 0,
+    "avg_processing_time": 0.042889
+}

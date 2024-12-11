@@ -1,0 +1,96 @@
+
+        <html>
+        <head>
+            <title>AdGuard Home Analysis - rpi3-1</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                .container { max-width: 1200px; margin: auto; }
+                .image-container { margin: 20px 0; }
+                img { max-width: 100%; }
+                table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                .stats-card {
+                    background: #f8f9fa;
+                    padding: 15px;
+                    border-radius: 5px;
+                    margin: 10px 0;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>AdGuard Home Analysis Report - rpi3-1</h1>
+
+                <div class="stats-card">
+                    <h2>Overview</h2>
+                    <p>Total DNS Queries: 6,385,029</p>
+                    <p>Blocked Queries: 793,762</p>
+                    <p>Blocking Rate: 12.4%</p>
+                </div>
+
+                <div class="image-container">
+                    <img src="/Users/parkerowings/Library/Mobile Documents/com~apple~CloudDocs/school/Fall24/DATA5500/code/final_project/data/plots/rpi3-1_stats_analysis.png" alt="Analysis Visualizations">
+                </div>
+
+                <h2>Top Queried Domains</h2>
+                <table>
+                    <tr>
+                        <th>Domain</th>
+                        <th>Query Count</th>
+                    </tr>
+
+                <tr>
+                    <td>api.gelighting.com</td>
+                    <td>918,517</td>
+                </tr>
+
+                <tr>
+                    <td>cm.gelighting.com</td>
+                    <td>799,471</td>
+                </tr>
+
+                <tr>
+                    <td>www.msftncsi.com</td>
+                    <td>603,652</td>
+                </tr>
+
+                <tr>
+                    <td>www.expressapisv2.net</td>
+                    <td>266,113</td>
+                </tr>
+
+                <tr>
+                    <td>www.msftconnecttest.com</td>
+                    <td>207,561</td>
+                </tr>
+
+                <tr>
+                    <td>ix-truenas</td>
+                    <td>190,521</td>
+                </tr>
+
+                <tr>
+                    <td>daemon.nanoleaf.me</td>
+                    <td>137,387</td>
+                </tr>
+
+                <tr>
+                    <td>health.nanoleaf.me</td>
+                    <td>137,278</td>
+                </tr>
+
+                <tr>
+                    <td>dns.msftncsi.com</td>
+                    <td>124,829</td>
+                </tr>
+
+                <tr>
+                    <td>p2p-lax1.discovery.steamserver.net</td>
+                    <td>64,692</td>
+                </tr>
+
+                </table>
+            </div>
+        </body>
+        </html>

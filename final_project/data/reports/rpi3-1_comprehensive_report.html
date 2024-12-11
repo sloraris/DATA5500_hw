@@ -1,0 +1,291 @@
+
+        <html>
+        <head>
+            <title>Comprehensive DNS Analysis - rpi3-1</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                .container { max-width: 1200px; margin: auto; }
+                .section { margin: 20px 0; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
+                .insight { background: #f8f9fa; padding: 10px; margin: 5px 0; border-radius: 3px; }
+                img { max-width: 100%; }
+                table { border-collapse: collapse; width: 100%; margin: 10px 0; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>DNS Analysis Report - rpi3-1</h1>
+                <p>Analysis period: Last 2192 hours</p>
+
+                <div class="section">
+                    <h2>Key Insights</h2>
+                    <div class="insight">Peak DNS query activity occurs at 01:00</div><div class="insight">Client 10.0.8.2 shows unusual activity patterns (active 24 hours)</div><div class="insight">Client 10.0.6.10 shows unusual activity patterns (active 24 hours)</div><div class="insight">Client 10.0.6.50 shows unusual activity patterns (active 24 hours)</div><div class="insight">Client 10.0.6.21 shows unusual activity patterns (active 24 hours)</div><div class="insight">Client 10.0.6.20 shows unusual activity patterns (active 24 hours)</div><div class="insight">Client 10.0.6.22 shows unusual activity patterns (active 24 hours)</div><div class="insight">Client 10.0.6.9 shows unusual activity patterns (active 24 hours)</div><div class="insight">Client 10.0.6.31 shows unusual activity patterns (active 24 hours)</div><div class="insight">Client 10.0.6.32 shows unusual activity patterns (active 24 hours)</div><div class="insight">Client 10.0.3.20 shows unusual activity patterns (active 24 hours)</div><div class="insight">High blocking rate (52.1%) for client 10.0.6.145</div><div class="insight">High frequency queries to api.gelighting.com (21476 queries)</div><div class="insight">High frequency queries to cm.gelighting.com (21473 queries)</div><div class="insight">High frequency queries to www.msftncsi.com (9004 queries)</div><div class="insight">High frequency queries to dns.msftncsi.com (1812 queries)</div><div class="insight">High frequency queries to health.nanoleaf.me (1947 queries)</div><div class="insight">High frequency queries to www.msftconnecttest.com (2402 queries)</div><div class="insight">High frequency queries to daemon.nanoleaf.me (1946 queries)</div><div class="insight">High frequency queries to www.expressapisv2.net (4028 queries)</div><div class="insight">High frequency queries to mobile.events.data.microsoft.com (1102 queries)</div><div class="insight">High frequency queries to teams.events.data.microsoft.com (2748 queries)</div><div class="insight">High frequency queries to smetrics.t-mobile.com (1555 queries)</div>
+                </div>
+
+                <div class="section">
+                    <h2>Temporal Analysis</h2>
+                    <img src="/Users/parkerowings/Library/Mobile Documents/com~apple~CloudDocs/school/Fall24/DATA5500/code/final_project/data/plots/rpi3-1_temporal_analysis.png" alt="Temporal Analysis">
+                </div>
+
+                <div class="section">
+                    <h2>Client Analysis</h2>
+                    <table>
+                        <tr>
+                            <th>Client</th>
+                            <th>Total Queries</th>
+                            <th>Blocked Queries</th>
+                            <th>Blocking Rate</th>
+                            <th>Unique Domains</th>
+                            <th>Active Hours</th>
+                        </tr>
+        
+                        <tr>
+                            <td>10.0.8.2</td>
+                            <td>25,175</td>
+                            <td>3,203</td>
+                            <td>12.7%</td>
+                            <td>221</td>
+                            <td>24</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.10</td>
+                            <td>43,027</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>5</td>
+                            <td>24</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.50</td>
+                            <td>3,897</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>3</td>
+                            <td>24</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.128</td>
+                            <td>126</td>
+                            <td>1</td>
+                            <td>0.8%</td>
+                            <td>33</td>
+                            <td>10</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.21</td>
+                            <td>1,645</td>
+                            <td>119</td>
+                            <td>7.2%</td>
+                            <td>140</td>
+                            <td>24</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.20</td>
+                            <td>1,163</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>78</td>
+                            <td>24</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.126</td>
+                            <td>3,435</td>
+                            <td>405</td>
+                            <td>11.8%</td>
+                            <td>405</td>
+                            <td>20</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.22</td>
+                            <td>3,176</td>
+                            <td>87</td>
+                            <td>2.7%</td>
+                            <td>162</td>
+                            <td>24</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.9</td>
+                            <td>298</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>1</td>
+                            <td>24</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.31</td>
+                            <td>62</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>3</td>
+                            <td>24</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.32</td>
+                            <td>62</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>2</td>
+                            <td>24</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.3.20</td>
+                            <td>464</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>5</td>
+                            <td>24</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.2.12</td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.30.2</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>2</td>
+                            <td>1</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.242</td>
+                            <td>942</td>
+                            <td>28</td>
+                            <td>3.0%</td>
+                            <td>92</td>
+                            <td>15</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.187</td>
+                            <td>64</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>6</td>
+                            <td>11</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.211</td>
+                            <td>1,534</td>
+                            <td>146</td>
+                            <td>9.5%</td>
+                            <td>292</td>
+                            <td>5</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.174</td>
+                            <td>58</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>17</td>
+                            <td>7</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.0.90</td>
+                            <td>9</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.145</td>
+                            <td>9,271</td>
+                            <td>4,828</td>
+                            <td>52.1%</td>
+                            <td>522</td>
+                            <td>20</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.209</td>
+                            <td>399</td>
+                            <td>14</td>
+                            <td>3.5%</td>
+                            <td>85</td>
+                            <td>20</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.118</td>
+                            <td>2,707</td>
+                            <td>412</td>
+                            <td>15.2%</td>
+                            <td>199</td>
+                            <td>15</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.7.144</td>
+                            <td>104</td>
+                            <td>5</td>
+                            <td>4.8%</td>
+                            <td>58</td>
+                            <td>2</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.173</td>
+                            <td>2,139</td>
+                            <td>163</td>
+                            <td>7.6%</td>
+                            <td>250</td>
+                            <td>7</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.195</td>
+                            <td>159</td>
+                            <td>6</td>
+                            <td>3.8%</td>
+                            <td>60</td>
+                            <td>2</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.139</td>
+                            <td>52</td>
+                            <td>2</td>
+                            <td>3.8%</td>
+                            <td>28</td>
+                            <td>1</td>
+                        </tr>
+            
+                        <tr>
+                            <td>10.0.6.130</td>
+                            <td>25</td>
+                            <td>0</td>
+                            <td>0.0%</td>
+                            <td>18</td>
+                            <td>1</td>
+                        </tr>
+            
+                    </table>
+                </div>
+            </div>
+        </body>
+        </html>
+        
